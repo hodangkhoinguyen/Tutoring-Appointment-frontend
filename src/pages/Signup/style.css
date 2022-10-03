@@ -9,7 +9,7 @@ div {
     align-items: center;
 }
 div.login-box {
-    margin-top: 200px;
+    margin-top: 125px;
 }
 div.row {
     flex-direction: row;
@@ -36,12 +36,12 @@ div.action {
     margin: 20px 0;
 }
 
-input {    
+input {
     box-sizing: border-box;
     height: 45px;
     border-radius: 12px;
     border: 2px solid silver;
-    color: black;    
+    color: black;
     padding: 0 20px;
 }
 
