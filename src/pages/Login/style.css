@@ -1,0 +1,63 @@
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.login-box {
+    margin-top: 200px;
+}
+div.row {
+    flex-direction: row;
+    width: 100%;
+}
+div.login-container {
+    width: 400px;
+    border: solid;
+    border-width: 0.5px;
+}
+
+div.container {
+    width: 340px;
+}
+
+div.action {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container > * {
+    width: 100%;
+    margin: 20px 0;
+}
+
+input {    
+    box-sizing: border-box;
+    height: 45px;
+    border-radius: 12px;
+    border: 2px solid silver;
+    color: black;    
+    padding: 0 20px;
+}
+
+button {
+    height: 45px;
+    border-radius: 12px;
+    border: 2px solid silver;
+    color: black;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+/* button:hover {
+    background-color: green;
+}
+
+button:active {
+    background-color: red;
+} */
