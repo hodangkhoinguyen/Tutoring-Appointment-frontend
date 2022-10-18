@@ -6,14 +6,8 @@ function Home() {
     console.log('login:', user);
     return (
         <div>
-            This is home
-            <button
-                onClick={() => {
-                    console.log(user);
-                }}
-            >
-                button
-            </button>
+            This is home. Welcome, {user.firstName} {user.lastName}
+            <a href="/appointment">Click here</a> to view upcoming appointments
         </div>
     );
 }

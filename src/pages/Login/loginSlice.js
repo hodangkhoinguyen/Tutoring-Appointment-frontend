@@ -6,6 +6,8 @@ export default createSlice({
         role: '',
         id: '',
         accessToken: '',
+        firstName: '',
+        lastName: '',
     },
     reducers: {
         setLogin: (state, action) => {
@@ -14,6 +16,8 @@ export default createSlice({
             state.role = action.payload.role;
             state.id = action.payload.id;
             state.accessToken = action.payload.accessToken;
+            state.firstName = action.payload.firstName;
+            state.lastName = action.payload.lastName;
             // }
         },
         logout: (state, action) => {
@@ -21,6 +25,8 @@ export default createSlice({
             state.role = '';
             state.id = '';
             state.accessToken = '';
+            state.firstName = '';
+            state.lastName = '';
         },
     },
 });
